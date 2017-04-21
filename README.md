@@ -52,8 +52,9 @@ Done!
 <br/><br/>
 <h4>Shifting</h4>
 Changes in original image are not visible by naked eye when data is hidden in it. But, it can be observed by left shifting every pixel's RGB values.<br/><br/>
-Suppose the 8 bit value of a pixel's R value is 00110100, then after left shifting by 1 bit, it becomes 01101000.<br/><br/>
+Suppose the 8-bit value of a pixel's R value is 00110100, then after left shifting by 1 bit, it becomes 01101000.<br/><br/>
 When an image containing hidden data is left shifted, then a demarcation between the pixels having hidden data and not having hidden data becomes visible. This can be observed by running following commands<br/>
+
 ```
 > python3 shift.py
 Enter path of image to shift
