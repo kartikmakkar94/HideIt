@@ -37,3 +37,39 @@ File read Successfully
 Hiding Data....
 Done!
 ```
+<br/><br/>
+To extract the file from the image run the following commands<br/>
+```
+> python3 decodegen.py
+Enter path of image with hidden data(PNG image only)
+[Path of Image]
+Image read Successfully
+
+Enter name of file to be generated having hidden data
+[Path or name of file]
+Done!
+```
+
+<h4>Shifting</h4>
+Changes in original image are not visible by naked eye when data is hidden in it. But, it can be observed by left shifting every pixel's RGB values.<br/><br/>
+Suppose the 8 bit value of a pixel's R value is 00110100, then after left shifting by 1 bit, it becomes 01101000.<br/><br/>
+When an image containing hidden data is left shifted, then a demarcation between the pixels having hidden data and not having hidden data becomes visible. This can be observed by running following commands<br/>
+```
+> python3 shift.py
+Enter path of image to shift
+[Path of Image]
+Enter number of bytes to shift the image(Maximum 8)
+[No. of bits to left shift]
+Enter the name of resultant shifted image
+[Path or name of new Image]
+Image read successfully
+Done!
+```
+
+<h4>Further Improvements possible</h4>
+<ul>
+	<li>Add encryption for hidden file's data</li>
+	<li>Create a graphical user interface</li>
+</ul>
+
+<i><<strong>>Requirements:</strong>Python3, Numpy, PIL</i>
