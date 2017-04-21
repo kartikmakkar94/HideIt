@@ -6,11 +6,9 @@ Let say we have a 1280x720 image, so number of pixels in it are 921600. Also, th
 As the number of bits used increase or the size of image increases, we can hide even more data in the image but the disadvantage of this is that the change might be noticable.
 
 <h4>Main Image</h4>
-<img width=45% src='samples/1.png' title="Main Image"/>
+<img width=60% src='samples/1.png' title="Main Image"/>
 <h4>Hidden Image</h4>
-<img width=45% src='samples/101.png' title="Hidden Image"/>
+<img width=50% src='samples/101.png' title="Hidden Image"/>
 <h4>Images with hidden data</h4>
-<img width=45% src='samples/hide2.png' title="Using 2 LSBs for hiding data" display:inline/>
-<img width=45% src='samples/hide4.png' title="Using 4 LSBs for hiding data" display:inline/>
-<img width=45% src='samples/hide6.png' title="Using 6 LSBs for hiding data" display:inline/>
-<img width=45% src='samples/hide8.png' title="Using 8 bits for hiding data" display:inline/>
+<img width=40% src='samples/hide2.png' title="Using 2 LSBs for hiding data" display:inline/> <img width=40% src='samples/hide4.png' title="Using 4 LSBs for hiding data" display:inline/>
+<img width=40% src='samples/hide6.png' title="Using 6 LSBs for hiding data" display:inline/> <img width=40% src='samples/hide8.png' title="Using 8 bits for hiding data" display:inline/>
