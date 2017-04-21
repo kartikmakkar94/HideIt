@@ -11,3 +11,4 @@ As the number of bits used increase or the size of image increases, we can hide 
 ![4-bits](/samples/hide4.png?raw=true "Using 4 LSBs for hiding data")
 ![6-bits](/samples/hide6.png?raw=true "Using 6 LSBs for hiding data")
 ![8-bits](/samples/hide8.png?raw=true "Using 8 bits for hiding data")
+<img width=50% src='samples/hide2.png' title="Using 2 LSBs for hiding data"/>
