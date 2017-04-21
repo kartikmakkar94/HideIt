@@ -19,7 +19,7 @@ Using 6 LSBs for hiding data             |  Using 8 bits for hiding data
 :--------------------------------------:|:------------------------------------:
 ![](/samples/hide6.png)                 |  ![](/samples/hide8.png)
 
-#How to use
+# How to use
 To encode a file in a PNG image, run the following commands<br/>
 ```
 > python3 encodegen.py 
