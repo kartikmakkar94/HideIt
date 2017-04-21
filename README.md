@@ -65,6 +65,7 @@ Enter the name of resultant shifted image
 Image read successfully
 Done!
 ```
+
 Shifting by 2 bits             |  Shifting by 4 bits
 :--------------------------------------:|:------------------------------------:
 ![](/samples/shift2.png)                 |  ![](/samples/shift4.png)
