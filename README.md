@@ -49,7 +49,7 @@ Enter name of file to be generated having hidden data
 [Path or name of file]
 Done!
 ```
-
+<br/><br/>
 <h4>Shifting</h4>
 Changes in original image are not visible by naked eye when data is hidden in it. But, it can be observed by left shifting every pixel's RGB values.<br/><br/>
 Suppose the 8 bit value of a pixel's R value is 00110100, then after left shifting by 1 bit, it becomes 01101000.<br/><br/>
@@ -65,6 +65,9 @@ Enter the name of resultant shifted image
 Image read successfully
 Done!
 ```
+Shifting by 2 bits             |  Shifting by 4 bits
+:--------------------------------------:|:------------------------------------:
+![](/samples/shift2.png)                 |  ![](/samples/shift4.png)
 
 <h4>Further Improvements possible</h4>
 <ul>
