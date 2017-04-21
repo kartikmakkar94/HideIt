@@ -9,7 +9,7 @@ As the number of bits used increase or the size of image increases, we can hide 
 <h4>Main Image</h4>
 <img width=50% src='samples/101.png' title="Hidden Image"/>
 <h4>Hidden Image</h4>
-<img width=50% src='samples/hide2.png' title="Using 2 LSBs for hiding data" white-space:nowrap/>
-<img width=50% src='samples/hide4.png' title="Using 4 LSBs for hiding data" white-space:nowrap/>
-<img width=50% src='samples/hide6.png' title="Using 6 LSBs for hiding data" white-space:nowrap/>
-<img width=50% src='samples/hide8.png' title="Using 8 bits for hiding data" white-space:nowrap/>
+<img width=50% src='samples/hide2.png' title="Using 2 LSBs for hiding data" display:inline/>
+<img width=50% src='samples/hide4.png' title="Using 4 LSBs for hiding data" display:inline/>
+<img width=50% src='samples/hide6.png' title="Using 6 LSBs for hiding data" display:inline/>
+<img width=50% src='samples/hide8.png' title="Using 8 bits for hiding data" display:inline/>
