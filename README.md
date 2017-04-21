@@ -72,4 +72,4 @@ Done!
 	<li>Create a graphical user interface</li>
 </ul>
 
-<i><<strong>>Requirements:</strong>Python3, Numpy, PIL</i>
+<i><strong>Requirements:</strong> Python3, Numpy, PIL</i>
